@@ -16,7 +16,9 @@ public class MD5Demo {
     public static String getMD5Code(String message) {
         String md5Str = "";
         try {
+        	//创建MD5算法消息摘要
             MessageDigest md = MessageDigest.getInstance("MD5");
+            //生成的哈希值的字节数组
             byte[] md5Bytes = md.digest(message.getBytes());
             md5Str = bytes2Hex(md5Bytes);
         }catch(Exception e) {
