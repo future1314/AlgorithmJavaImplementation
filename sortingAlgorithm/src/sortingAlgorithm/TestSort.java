@@ -1,9 +1,4 @@
-package txt;
-
-import sortingAlgorithm.BubbleSort;
-import sortingAlgorithm.InsertSort;
-import sortingAlgorithm.MergeSort;
-import sortingAlgorithm.QuickSort;
+package sortingAlgorithm;
 
 public class TestSort {
 

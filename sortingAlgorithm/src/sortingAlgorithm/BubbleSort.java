@@ -11,7 +11,7 @@ package sortingAlgorithm;
  */
 public class BubbleSort {
 
-	public static void bubbleSort(int[] numbers) {
+	public void bubbleSort(int[] numbers) {
 		int temp = 0;
 		int size = numbers.length;
 		for (int i = 0; i < size - 1; i++) {

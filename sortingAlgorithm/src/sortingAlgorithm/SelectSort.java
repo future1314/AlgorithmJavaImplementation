@@ -13,7 +13,7 @@ public class SelectSort {
 
 		for (int i = 0; i < size; i++) {
 			int k = i; // 待确定的位置
-			// 选择出应该在第i个位置的数
+			// 选择出应该在第i个位置的数也就是选出剩下元素最小的那个
 			for (int j = size - 1; j > i; j--) {
 				if (numbers[j] < numbers[k]) {
 					k = j;
